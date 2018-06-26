@@ -13,6 +13,7 @@ import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app.routing';
 import { NavbarPseuComponent } from './shared/navbar-pseu/navbar-pseu.component';
+import {AgmCoreModule} from '@agm/core';
 
 @NgModule({
   declarations: [
