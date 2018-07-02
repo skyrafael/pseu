@@ -14,6 +14,9 @@ import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app.routing';
 import { NavbarPseuComponent } from './shared/navbar-pseu/navbar-pseu.component';
 import {AgmCoreModule} from '@agm/core';
+import { DetalheComponent } from './equipe/detalhe/detalhe.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { FuncionaComponent } from './funciona/funciona.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import {AgmCoreModule} from '@agm/core';
     LoginComponent,
     ContatoComponent,
     CadastroComponent,
-    NavbarPseuComponent
+    NavbarPseuComponent,
+    DetalheComponent,
+    FooterComponent,
+    FuncionaComponent
   ],
   imports: [
     BrowserModule,

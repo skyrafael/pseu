@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-equipe',
-  templateUrl: './equipe.component.html',
-  styleUrls: ['./equipe.component.scss']
+  selector: 'app-detalhe',
+  templateUrl: './detalhe.component.html',
+  styleUrls: ['./detalhe.component.scss']
 })
-export class EquipeComponent implements OnInit {
+export class DetalheComponent implements OnInit {
+
+  data : Date = new Date();
 
   constructor() { }
 

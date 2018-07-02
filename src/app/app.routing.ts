@@ -7,6 +7,8 @@ import {EquipeComponent} from './equipe/equipe.component';
 import {ContatoComponent} from './contato/contato.component';
 import {LoginComponent} from './login/login.component';
 import {CadastroComponent} from './cadastro/cadastro.component';
+import {DetalheComponent} from './equipe/detalhe/detalhe.component';
+import {FuncionaComponent} from './funciona/funciona.component';
 
 
 const routes: Routes = [
@@ -16,6 +18,8 @@ const routes: Routes = [
     { path: 'contato',         component: ContatoComponent },
     { path: 'login',         component: LoginComponent },
     { path: 'cadastro',         component: CadastroComponent },
+    { path: 'detalhe',          component: DetalheComponent},
+    { path: 'funciona',          component: FuncionaComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
